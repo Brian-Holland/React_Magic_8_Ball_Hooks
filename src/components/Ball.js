@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Prediction from './Prediction';
 import '../App.css';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const Ball = () => {
 	const [ prediction, setPrediction ] = useState('');
@@ -54,8 +55,8 @@ const Ball = () => {
 	}
 
 	return (
-		<div>
-			<h1>Magic 8-Ball</h1>
+		<Container>
+			<h1 className="app-title my-2">Magic 8-Ball</h1>
 			<div className="BallShake">
 				<div className={`Ball-container ${shaking && 'shaking'}`}>
 					<Prediction prediction={prediction} fade={fade} />
@@ -68,7 +69,7 @@ const Ball = () => {
 					</button>
 				</div>
 			</div>
-		</div>
+		</Container>
 	);
 };
 

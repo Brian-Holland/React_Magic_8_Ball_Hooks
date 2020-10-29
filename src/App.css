@@ -7,23 +7,19 @@ h4 {
 	text-align: center;
 }
 
-.Ball-container {
-	position: relative;
-	align-self: center;
-	width: 35vw;
-	padding-bottom: 35vw;
-	background-color: black;
-	border-radius: 50%;
-}
-
 .BallShake {
 	display: flex;
 	flex-direction: column;
 }
 
+.app-title {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
 .question {
 	align-self: center;
-	margin-top: 1.5rem;
+	margin-top: 1.6rem;
 }
 
 input[type=text] {
@@ -42,6 +38,14 @@ button {
 	animation-duration: 2s;
 }
 
+.Ball-container {
+	position: relative;
+	align-self: center;
+	width: 35vw;
+	padding-bottom: 35vw;
+	background-color: black;
+	border-radius: 50%;
+}
 .inner-ball {
 	position: absolute;
 	border-radius: 50%;
@@ -194,6 +198,14 @@ button {
 } */
 
 @media (max-width: 768px) {
+	.app-title {
+		margin-bottom: 2rem;
+	}
+
+	.question {
+		margin-top: 2rem;
+	}
+
 	.triangle span {
 		top: 65%;
 		left: 50%;
@@ -201,12 +213,12 @@ button {
 		font-weight: 300;
 	}
 	.Ball-container {
-		width: 90vw;
-		padding-bottom: 90vw;
+		width: 85vw;
+		padding-bottom: 85vw;
 	}
 	.eight {
-		font-size: 7rem;
-		left: 28%;
-		top: 19%;
+		font-size: 6rem;
+		left: 33%;
+		top: 23%;
 	}
 }
