@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Prediction from './Prediction';
 import '../App.css';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 const Ball = () => {
 	const [ prediction, setPrediction ] = useState('');
