@@ -146,56 +146,11 @@ button {
 	}
 }
 
-/* @media (max-width: 320px) {
-	.triangle span {
-		top: 65%;
-		left: 40%;
-		font-size: 0.8rem;
-	}
-	.Ball-container {
-		width: 95vw;
-		padding-bottom: 95vw;
-	}
+@media (min-width: 768px) and (max-width: 1024px) {
 	.eight {
-		font-size: .6rem;
-		top: 11%;
-		left: 30%;
+		font-size: 8rem;
 	}
-} */
-
-/* @media (max-width: 414px) {
-	.triangle span {
-		top: 65%;
-		left: 40%;
-		font-size: 0.8rem;
-	}
-	.Ball-container {
-		width: 95vw;
-		padding-bottom: 95vw;
-	}
-	.eight {
-		font-size: 1rem;
-		top: 25%;
-		left: 50%;
-	}
-} */
-
-/* @media (max-width: 600px) {
-	.triangle span {
-		top: 65%;
-		left: 40%;
-		font-size: 0.8rem;
-	}
-	.Ball-container {
-		width: 95vw;
-		padding-bottom: 95vw;
-	}
-	.eight {
-		font-size: .6rem;
-		top: 17%;
-		left: 30%;
-	}
-} */
+}
 
 @media (max-width: 768px) {
 	.app-title {
