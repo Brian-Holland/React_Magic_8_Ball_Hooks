@@ -56,7 +56,7 @@ const Ball = () => {
 
 	return (
 		<Container>
-			<h1 className="app-title my-2">Magic 8-Ball</h1>
+			<h1 className="app-title my-2">Magic 8 Ball</h1>
 			<div className="BallShake">
 				<div className={`Ball-container ${shaking && 'shaking'}`}>
 					<Prediction prediction={prediction} fade={fade} />
