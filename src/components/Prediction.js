@@ -3,7 +3,6 @@ import React from 'react';
 import '../App.css';
 
 const Prediction = ({ prediction, fade }) => {
-	console.log(prediction, fade);
 	return (
 		<div>
 			<div className={`${prediction ? 'inner-ball answered' : 'inner-ball unanswered'}`}>
