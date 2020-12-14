@@ -45,6 +45,7 @@ button {
 	padding-bottom: 35vw;
 	background-color: black;
 	border-radius: 50%;
+	background: radial-gradient(circle at 100px 100px, rgb(20, 20, 20), #000);
 }
 .inner-ball {
 	position: absolute;
@@ -88,11 +89,12 @@ button {
 }
 
 .inner-ball.answered {
-	background-color: #333;
+	background-color: rgb(20, 20, 20);
 }
 
 .inner-ball.unanswered {
 	background-color: #fff;
+	box-shadow: inset -25px -25px 40px rgba(0, 0, 0, .5);
 }
 
 .triangle:after {
@@ -103,7 +105,8 @@ button {
 	margin-left: -150px;
 	border-left: 150px solid transparent;
 	border-right: 150px solid transparent;
-	border-bottom: 150px solid #4679bd;
+	border-bottom: 150px solid #1f4c88;
+	box-shadow: inset -25px -25px 40px rgba(0, 0, 0, .5);
 }
 
 @keyframes fadein {
